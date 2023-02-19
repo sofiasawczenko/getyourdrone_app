@@ -1,0 +1,61 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 300px;
+    background-color: #660000;
+    border-color: #168e99;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.cardtitle{
+    background-color: #168e99;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+
+.cardmain{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    width: 100%;
+}
+
+.cardend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: #168e99;
+}
+
+.cardh1{
+    font-family: Tahoma;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.cardh2{
+    font-family: Tahoma;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.buy{
+    transform: translateY(25px);
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

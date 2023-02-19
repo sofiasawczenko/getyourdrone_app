@@ -1,0 +1,30 @@
+#section1{
+    display: flex;
+    flex-direction: column;
+}
+
+#section1top{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 980px;
+}
+
+#titleandline{
+    display: flex;
+    flex-direction: column;
+}
+
+#line{
+    height: 4px;
+    width: 860px;
+    background: #660000;
+}
+
+.cards{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
