@@ -17,6 +17,29 @@
     width: 100%;
 }
 
+#title{
+    font-family: Arial;
+    color: #660000;
+}
+
+#cardtitle{
+    background-color: rgb(196, 117, 117);
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+
+.csubtitle{
+    font-family: Arial;
+    color: #1C8E99;
+}
+
+#csubtitle{
+    font-family: Arial;
+    color: #660000;
+}
+
 .cardmain{
     align-items: center;
     text-align: center;
@@ -32,6 +55,15 @@
     height: 100%;
     width: 100%;
     background-color: #168e99;
+}
+
+#cardend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102, 0, 0, 0.7);
 }
 
 .cardh1{
